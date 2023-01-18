@@ -15,7 +15,7 @@ const StoreItem = ({ id, name, price, imgUrl }: StoreItemProps) => {
     <Card className="h-100">
       <Card.Img
         variant="top"
-        src={imgUrl}
+        src={`/imgs/${imgUrl}`}
         height="200px"
         style={{ objectFit: "cover" }}
       ></Card.Img>
