@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Essential Oil",
+        "price": 10.88,
+        "imgUrl": "/imgs/oil.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Face Wash",
+        "price": 11.88,
+        "imgUrl": "/imgs/facewash.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Lip Gloss",
+        "price": 5.88,
+        "imgUrl": "/imgs/gloss.jpg"
+    }
+
+
+]
