@@ -10,12 +10,13 @@ type StoreItemProps = {
 };
 
 const StoreItem = ({ id, name, price, imgUrl }: StoreItemProps) => {
+  console.log({ imgUrl });
   const quantity = 0;
   return (
     <Card className="h-100">
       <Card.Img
         variant="top"
-        src={`/imgs/${imgUrl}`}
+        src={`/${imgUrl}`}
         height="200px"
         style={{ objectFit: "cover" }}
       ></Card.Img>
